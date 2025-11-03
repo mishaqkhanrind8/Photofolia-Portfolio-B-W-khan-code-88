@@ -189,3 +189,10 @@ footer p a {
     footer p a:hover {
       text-decoration: underline;
     }
+
+@media (max-width: 431px) {
+.grid-container {
+  
+}
+
+}
