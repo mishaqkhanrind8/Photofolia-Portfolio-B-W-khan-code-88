@@ -194,7 +194,7 @@ footer p a {
 
 @media (max-width: 431px) {
   .grid-container { grid-template-columns: 1fr; }
-  .grid-item { height: 400px; }
+  .grid-item { height: 430px; }
   nav ul.navbar li a {
     display: block;
     text-decoration: none;
