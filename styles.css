@@ -25,7 +25,7 @@ nav ul.navbar {
 nav ul.navbar li a {
     display: block;
     text-decoration: none;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     color: #333;
     background-color: rgba(255, 255, 255, 0.7);
     text-transform: capitalize;
@@ -36,7 +36,7 @@ nav ul.navbar li a {
 }
 
 li.active a {
-    background-color: #1e90ffb3 !important;
+    background-color: #0d80f3b3 !important;
     color: #fff !important;
 }
 
@@ -47,18 +47,18 @@ li a:hover:not(.active) {
 
 header h1 {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 header h2 {
     font-size: 3.5rem;
-    font-weight: normal;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
 }
 
 header p.subtitle {
-  color: black;
+  color: #000;
   font-size: 1.6rem;
-  margin-top: 1rem;
 }
 
 main {
@@ -222,15 +222,22 @@ header {
 
 header h2 {
   font-size: 2rem;
+  margin-top: 0.5rem;
 }
 
 header h1 {
   font-size: 1rem;
+  margin-bottom: 0.9rem;
 }
 
 header p.subtitle {
   color: #000;
-  font-size: 1.6rem;
+  font-size: 13px;
+  margin-top: 0.8rem;
+}
+
+nav ul.navbar li a {
+    margin-top: 0.9rem;
 }
 
 }
