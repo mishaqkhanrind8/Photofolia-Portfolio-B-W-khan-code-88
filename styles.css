@@ -88,7 +88,7 @@ main {
     position: absolute;
     bottom: 30px;
     left: 10px;
-    background-color: rgba(30, 144, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 6px 10px;
     text-decoration: none;
@@ -105,11 +105,13 @@ main {
     position: absolute;
     bottom: 30px;
     right: 10px;
-    background-color: rgba(30, 144, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
-    padding: 6px 10px;
+    padding: 6px 8px;
     text-decoration: none;
-    border-radius: 3px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
     font-size: 0.9rem;
     transition: background-color 0.3s;
 }
@@ -194,6 +196,4 @@ footer p a {
   .grid-container { grid-template-columns: 1fr; }
   .grid-item { height: 280px; }
 }
-}
 
-}
